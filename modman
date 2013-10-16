@@ -1,0 +1,3 @@
+app/design/frontend/default/default/layout/inchoo_adwords.xml app/design/frontend/default/default/layout/inchoo_adwords.xml
+app/code/local/Inchoo/Adwords app/code/local/Inchoo/Adwords
+app/etc/modules/Inchoo_Adwords.xml app/etc/modules/Inchoo_Adwords.xml
