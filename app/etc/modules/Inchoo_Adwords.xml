@@ -11,7 +11,7 @@
     <modules>
         <Inchoo_Adwords>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </Inchoo_Adwords>
     </modules>
 </config>
