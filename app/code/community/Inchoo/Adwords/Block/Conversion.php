@@ -6,7 +6,7 @@
  */
 class Inchoo_Adwords_Block_Conversion extends Mage_Core_Block_Template
 {
-	public function isTrackingAllowed()
+	public function isTrackingEnabled()
     {
         return (bool)(int)$this->getConfig('conversion_tracking_enabled');
     }
