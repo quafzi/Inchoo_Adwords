@@ -24,52 +24,27 @@
             </inchoo_adwords>
         </helpers>
     </global>
-    
+
     <frontend>
-      <layout>
-          <updates>
-              <inchoo_adwords>
-                  <file>inchoo_adwords.xml</file>
-              </inchoo_adwords>
-          </updates>
-      </layout>
+        <layout>
+            <updates>
+                <inchoo_adwords>
+                    <file>inchoo_adwords.xml</file>
+                </inchoo_adwords>
+            </updates>
+        </layout>
     </frontend>
-    
-    <adminhtml>
-		<acl>
-			<resources>
-				<all>
-					<title>Allow Everything</title>
-				</all>
-				<admin>
-					<children>
-						<system>
-							<children>
-								<config>
-									<children>
-										<adwordsmodule>
-											<title>Inchoo Extension</title>
-										</adwordsmodule>
-									</children>
-								</config>
-							</children>
-						</system>
-					</children>
-				</admin>
-			</resources>
-		</acl>
-	</adminhtml>
-	<default>
-        <adwordsmodule>
-            <inchoad>
-                <enabled>0</enabled>
-                <google_conversion_id>0</google_conversion_id>
-                <google_conversion_language>hr</google_conversion_language>
-                <google_conversion_format>1</google_conversion_format>
-                <google_conversion_color>ffffff</google_conversion_color>
-                <google_conversion_label>0</google_conversion_label>	
-            </inchoad>
-        </adwordsmodule>
+
+    <default>
+        <google>
+            <analytics>
+                <conversion_tracking_enabled>0</conversion_tracking_enabled>
+                <conversion_id>0</conversion_id>
+                <conversion_language>en</conversion_language>
+                <conversion_format>1</conversion_format>
+                <conversion_color>ffffff</conversion_color>
+                <conversion_label>0</conversion_label>
+            </analytics>
+        </google>
     </default>
-	
 </config>
