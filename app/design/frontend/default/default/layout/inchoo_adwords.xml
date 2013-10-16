@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category   Inchoo
+ * @package    Inchoo Google Adwords
+ * @author     Domagoj Potkoc, Inchoo Team <domagoj.potkoc@surgeworks.com>
+ */
+-->
+<layout version="0.1.0">
+	<checkout_onepage_success>
+		<reference name="content">
+            <block type="inchoo_adwords/block" name="inchoo.adwords" />
+        </reference>
+	</checkout_onepage_success>
+	
+</layout>

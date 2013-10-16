@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category   Inchoo
+ * @package    Inchoo Google Adwords
+ * @author     Domagoj Potkoc, Inchoo Team <domagoj.potkoc@surgeworks.com>
+ */
+ -->
+<config>
+    <modules>
+        <Inchoo_Adwords>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Inchoo_Adwords>
+    </modules>
+</config>
