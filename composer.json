@@ -1,0 +1,8 @@
+{
+    "name": "inchoo/adwords",
+    "type": "magento-module",
+    "description": "Removes old cache entries in your Magento instance",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
