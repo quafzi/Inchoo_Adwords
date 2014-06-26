@@ -8,7 +8,7 @@
 -->
 <layout version="0.1.0">
 	<checkout_onepage_success>
-		<reference name="content">
+		<reference name="after_body_start">
             <block type="inchoo_adwords/conversion" name="inchoo.adwords" template="inchoo_adwords/conversion_tracking.phtml" />
         </reference>
 	</checkout_onepage_success>
