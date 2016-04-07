@@ -11,6 +11,20 @@ This is an updated fork from [Inchoo's original module](http://inchoo.net/magent
     $ cd /path/to/magento
     $ modgit init
     $ modgit add Inchoo_Adwords https://github.com/quafzi/Inchoo_Adwords.git
+    
+### Install using [composer](http://getcomposer.org)
+
+Add this repository url to the "repositories" section of your composer.json (or to your package source), e.g.
+
+    "repositories": [
+      { "type": "vcs", "url": "https://github.com/quafzi/Inchoo_Adwords/" }
+    ]
+
+and call
+
+    $ composer require inchoo/adwords
+    
+to add it to your project.
 
 ### Manual Install:
 
