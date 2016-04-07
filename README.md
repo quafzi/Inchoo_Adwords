@@ -6,7 +6,7 @@ This is an updated fork from [Inchoo's original module](http://inchoo.net/magent
 
 ## Installation
 
-### Install using [modgit](https://github.com/jreinke/modgit):
+### Install using [modgit](https://github.com/jreinke/modgit)
 
     $ cd /path/to/magento
     $ modgit init
@@ -26,12 +26,12 @@ and call
     
 to add it to your project.
 
-### Manual Install:
+### Manual Install
 
 - Get the [latest version](https://github.com/quafzi/Inchoo_Adwords/archive/master.zip) of the module.
 - Uncompress the file and copy the app folder to Magento's main folder (merging it with the existing app folder).
 
-### Permissions:
+### Permissions
 
 If you have problems, check permissions:
 
