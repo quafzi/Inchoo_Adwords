@@ -60,7 +60,7 @@ You now have extra fields related to conversion tracking on `System -> Configura
 - Google conversion label
 - Remarketing only
 
-## Getting Google Data
+### Getting Google Data
 
 Open your [Google AdWords](https://adwords.google.com) account and go to `Tools -> Conversions`.
 
