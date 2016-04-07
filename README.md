@@ -29,7 +29,7 @@ to add it to your project.
 ### Manual Install:
 
 - Get the [latest version](https://github.com/quafzi/Inchoo_Adwords/archive/master.zip) of the module.
-- Uncompress the file and coppy the app folder to Magento's main folder (merging it with the existing app folder).
+- Uncompress the file and copy the app folder to Magento's main folder (merging it with the existing app folder).
 
 ### Permissions:
 
