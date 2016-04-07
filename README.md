@@ -4,18 +4,32 @@ This magento module allows you to use Google Adwords to track conversions on you
 
 This is an updated fork from [Inchoo's original module](http://inchoo.net/magento/magento-and-google-adwords-conversion-tracking/).
 
-## Instalation
+## Installation
 
 ### Install using [modgit](https://github.com/jreinke/modgit):
 
     $ cd /path/to/magento
     $ modgit init
     $ modgit add Inchoo_Adwords https://github.com/quafzi/Inchoo_Adwords.git
+    
+### Install using [composer](http://getcomposer.org)
+
+Add this repository url to the "repositories" section of your composer.json (or to your package source), e.g.
+
+    "repositories": [
+      { "type": "vcs", "url": "https://github.com/quafzi/Inchoo_Adwords/" }
+    ]
+
+and call
+
+    $ composer require inchoo/adwords
+    
+to add it to your project.
 
 ### Manual Install:
 
 - Get the [latest version](https://github.com/quafzi/Inchoo_Adwords/archive/master.zip) of the module.
-- Uncompress the file and coppy the app folder to Magento's main folder (merging it with the existing app folder).
+- Uncompress the file and copy the app folder to Magento's main folder (merging it with the existing app folder).
 
 ### Permissions:
 
