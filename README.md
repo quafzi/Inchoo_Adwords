@@ -4,7 +4,7 @@ This magento module allows you to use Google Adwords to track conversions on you
 
 This is an updated fork from [Inchoo's original module](http://inchoo.net/magento/magento-and-google-adwords-conversion-tracking/).
 
-## Instalation
+## Installation
 
 ### Install using [modgit](https://github.com/jreinke/modgit):
 
