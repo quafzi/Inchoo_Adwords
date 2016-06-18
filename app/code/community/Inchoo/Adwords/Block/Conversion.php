@@ -6,7 +6,8 @@
  */
 class Inchoo_Adwords_Block_Conversion extends Mage_Core_Block_Template
 {
-	public function isTrackingEnabled()
+
+    public function isTrackingEnabled()
     {
         return (bool)(int)$this->getConfig('conversion_tracking_enabled');
     }
@@ -47,9 +48,9 @@ class Inchoo_Adwords_Block_Conversion extends Mage_Core_Block_Template
     {
         return Mage::getStoreConfig('google/analytics/' . $key);
     }
-	
-	public function getOrderTotal()
-	{
+
+    public function getOrderTotal()
+    {
         $orderId = (int) Mage::getSingleton('checkout/session')
             ->getLastOrderId();
         if (!$orderId) {
@@ -60,5 +61,6 @@ class Inchoo_Adwords_Block_Conversion extends Mage_Core_Block_Template
             return round($order->getGrandTotal(), 2);
         }
         return 0;
-	}
+    }
+
 }
