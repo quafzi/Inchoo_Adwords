@@ -53,14 +53,25 @@ class Inchoo_Adwords_Block_Conversion extends Mage_Core_Block_Template
     {
         $orderId = (int) Mage::getSingleton('checkout/session')
             ->getLastOrderId();
-        if (!$orderId) {
-            return 0;
-        }
-        $order = Mage::getModel('sales/order')->load($orderId);
-        if ($order->getId()) {
-            return round($order->getGrandTotal(), 2);
+        if ($orderId) {
+	        $order = Mage::getModel('sales/order')->load($orderId);
+    	    if ($order->getId()) {
+        	    return round($order->getGrandTotal(), 2);
+        	}
         }
         return 0;
     }
 
+    public function getOrderCurrency()
+    {
+        $orderId = (int) Mage::getSingleton('checkout/session')
+            ->getLastOrderId();
+        if ($orderId) {
+        	$order = Mage::getModel('sales/order')->load($orderId);
+        	if ($order->getId()) {
+	            return $order->getOrderCurrencyCode();
+    	    }
+    	}
+        return '';
+    }
 }
